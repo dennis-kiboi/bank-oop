@@ -1,0 +1,29 @@
+{
+    "customers": {
+        "CUS1001": {
+            "customer_id": "CUS1001",
+            "name": "Amina Otieno",
+            "account_ids": [
+                "ACC1001",
+                "ACC1002"
+            ]
+        },
+        "CUS1002": {
+            "customer_id": "CUS1002",
+            "name": "Brian Mwangi",
+            "account_ids": []
+        }
+    },
+    "accounts": {
+        "ACC1001": {
+            "account_id": "ACC1001",
+            "balance": 5000,
+            "customer_id": "CUS1001"
+        },
+        "ACC1002": {
+            "account_id": "ACC1002",
+            "balance": 0,
+            "customer_id": "CUS1001"
+        }
+    }
+}
